@@ -1,0 +1,36 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="iphone-screen">
+            <h1>My Todo List</h1>
+            
+            <div class="todo-list">
+                <div class="todo-item">
+                    <input type="checkbox"> <strong>Buy milk</strong>
+                </div>
+                <div class="todo-item">
+                    <input type="checkbox"> <strong>Buy bread</strong>
+                </div>
+                <div class="todo-item">
+                    <input type="checkbox"> <strong>Buy eggs</strong>
+                </div>
+            </div>
+            
+            <button id="addTodoBtn">+ Add New Todo</button>
+            
+            <div class="footer-note">Milestone 1 | Stage 1</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+EOF
